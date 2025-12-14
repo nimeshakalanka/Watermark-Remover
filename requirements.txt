@@ -1,0 +1,4 @@
+simple-lama-inpainting
+gradio
+pillow
+torch
