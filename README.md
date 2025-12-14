@@ -8,7 +8,7 @@
 A powerful, local desktop tool that removes watermarks, text, and objects from images using **Deep Learning**. 
 
 Unlike traditional tools that simply blur or smudge the area, this tool uses the **LaMa (Large Mask Inpainting)** model to "hallucinate" and reconstruct the missing background texture, making the removal nearly invisible.
-
+[Demo: Click Here](https://huggingface.co/spaces/nimeshakalanka24/watermark-remover)
 ![Demo](https://res.cloudinary.com/dluwvqdaz/image/upload/v1765707511/Screenshot_2025-12-14_154507_oglluw.png)
 
 ## ✨ Features
