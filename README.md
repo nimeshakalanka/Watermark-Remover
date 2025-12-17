@@ -11,7 +11,7 @@ Unlike traditional tools that simply blur or smudge the area, this tool uses the
 
 ### [Demo: Click Here](https://huggingface.co/spaces/nimeshakalanka24/watermark-remover)
 
-![Demo](https://res.cloudinary.com/dluwvqdaz/image/upload/v1765707511/Screenshot_2025-12-14_154507_oglluw.png)
+![Demo img](https://res.cloudinary.com/dluwvqdaz/image/upload/v1765707511/Screenshot_2025-12-14_154507_oglluw.png)
 
 ## ✨ Features
 
