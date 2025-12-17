@@ -86,3 +86,4 @@ Critical Step: Go to the dist/WatermarkRemover folder and copy the big-lama.pt f
 ├── requirements.txt     # Python dependencies
 └── README.md            # Documentation
 ```
+made by ♥️
