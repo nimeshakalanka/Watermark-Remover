@@ -11,7 +11,7 @@ MODEL_PATH = "big-lama.pt"
 def download_model():
     url = "https://github.com/enesmsahin/simple-lama-inpainting/releases/download/v0.1.0/big-lama.pt"
     if not os.path.exists(MODEL_PATH):
-        print("📥 Model not found. Downloading big-lama.pt (360MB)...")
+        print("📥 Model not found. Downloading big-lama.pt (196 MB)...")
         try:
             response = requests.get(url, stream=True)
             response.raise_for_status()  
@@ -95,5 +95,6 @@ with gr.Blocks(css=css, theme=gr.themes.Soft()) as demo:
 
 if __name__ == "__main__":
     demo.launch(inbrowser=True, server_name="0.0.0.0", server_port=7860)
+
 
 
