@@ -77,7 +77,7 @@ css = """
 
 with gr.Blocks(css=css, theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 💧 AI Watermark Remover")
-    gr.Markdown("Upload an image, **draw over the watermark**, and click Remove.")
+    gr.Markdown("Upload an image, **draw over the watermark**, and click Remove. 😉")
 
     with gr.Row():
         input_img = gr.ImageEditor(
@@ -95,6 +95,7 @@ with gr.Blocks(css=css, theme=gr.themes.Soft()) as demo:
 
 if __name__ == "__main__":
     demo.launch(inbrowser=True, server_name="0.0.0.0", server_port=7860)
+
 
 
 
