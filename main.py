@@ -14,7 +14,7 @@ def download_model():
         print("📥 Model not found. Downloading big-lama.pt (360MB)...")
         try:
             response = requests.get(url, stream=True)
-            response.raise_for_status()  # Check for download errors
+            response.raise_for_status()  
             with open(MODEL_PATH, "wb") as f:
                 for chunk in response.iter_content(chunk_size=8192):
                     f.write(chunk)
@@ -95,4 +95,5 @@ with gr.Blocks(css=css, theme=gr.themes.Soft()) as demo:
 
 if __name__ == "__main__":
     demo.launch(inbrowser=True, server_name="0.0.0.0", server_port=7860)
+
 
